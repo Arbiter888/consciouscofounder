@@ -23,13 +23,13 @@ const coachInfo = {
   },
   growth: {
     name: "Pulse",
-    title: "Chief Growth Officer",
+    title: "Chief Marketing Officer",
     gradient: "from-yellow-400 via-orange-500 to-red-500",
     bgGradient: "bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500"
   },
   operations: {
     name: "Nexus",
-    title: "Chief Operations Officer",
+    title: "Chief Legal Officer",
     gradient: "from-lime-400 via-emerald-500 to-teal-500",
     bgGradient: "bg-gradient-to-r from-lime-400 via-emerald-500 to-teal-500"
   },
