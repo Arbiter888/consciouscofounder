@@ -13,7 +13,7 @@ export const TestimonialCard = ({ quote, author, initials, gradient }: Testimoni
       <motion.blockquote
         initial={{ opacity: 0, x: 20 }}
         animate={{ opacity: 1, x: 0 }}
-        className="text-gray-900 italic"
+        className="text-white/90 italic"
       >
         "{quote}"
       </motion.blockquote>
@@ -21,10 +21,10 @@ export const TestimonialCard = ({ quote, author, initials, gradient }: Testimoni
         initial={{ opacity: 0, x: 20 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ delay: 0.1 }}
-        className="flex items-center space-x-2 text-gray-900"
+        className="flex items-center space-x-2 text-white/70"
       >
         <div className={`w-8 h-8 rounded-full ${gradient} flex items-center justify-center`}>
-          <span className="text-gray-900 text-sm">{initials}</span>
+          <span className="text-white text-sm">{initials}</span>
         </div>
         <span>{author}</span>
       </motion.div>

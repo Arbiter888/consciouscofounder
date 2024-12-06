@@ -60,7 +60,7 @@ const FeaturesShowcase = () => {
         className="text-center mb-16 relative z-10"
       >
         <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gradient-aurora mb-4">Meet Conscious, Your AI Co-Founder</h2>
-        <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-12">
+        <p className="text-xl text-muted-foreground/90 max-w-2xl mx-auto mb-12">
           Experience your dedicated Conscious AI Co-Founder - your strategic partner in building a successful startup. Get 24/7 support and expert guidance tailored to your venture. <span className="text-gradient-sunshine font-semibold">Save up to ${totalMonthlySavings}+ monthly</span> compared to traditional startup costs.
         </p>
         
@@ -74,7 +74,7 @@ const FeaturesShowcase = () => {
               className="w-full h-full"
             />
           </div>
-          <p className="text-sm text-gray-500 mt-4">See how your AI co-founder will help build and scale your startup</p>
+          <p className="text-sm text-muted-foreground/70 mt-4">See how your AI co-founder will help build and scale your startup</p>
         </div>
       </motion.div>
 
@@ -103,7 +103,7 @@ const FeaturesShowcase = () => {
                 
                 <ul className="space-y-2 mb-6">
                   {feature.description.map((item, idx) => (
-                    <li key={idx} className="flex items-start gap-2 text-gray-600 group-hover:text-gray-800 transition-colors duration-500">
+                    <li key={idx} className="flex items-start gap-2 text-muted-foreground/90 group-hover:text-muted-foreground transition-colors duration-500">
                       <span className="text-secondary mt-1">•</span>
                       {item}
                     </li>
@@ -115,7 +115,7 @@ const FeaturesShowcase = () => {
                     <DollarSign className="w-5 h-5 text-gradient-sunshine" />
                     <p className="font-semibold text-gradient-sunshine">{feature.savings}</p>
                   </div>
-                  <p className="text-sm text-gray-500">{feature.costComparison}</p>
+                  <p className="text-sm text-muted-foreground/80">{feature.costComparison}</p>
                 </div>
               </div>
             </div>

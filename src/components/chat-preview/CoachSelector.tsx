@@ -12,12 +12,12 @@ interface CoachSelectorProps {
 export const CoachSelector = ({ coaches, activeCoach, onCoachChange }: CoachSelectorProps) => {
   return (
     <div className="mb-8">
-      <p className="text-gray-900 text-center mb-4 text-lg">Select your Coach</p>
+      <p className="text-white text-center mb-4 text-lg">Select your Coach</p>
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
           <Button 
             variant="outline" 
-            className={`w-full h-14 text-lg font-medium ${activeCoach.bgGradient} hover:opacity-90 transition-opacity rounded-2xl border-none text-gray-900`}
+            className={`w-full h-14 text-lg font-medium ${activeCoach.bgGradient} hover:opacity-90 transition-opacity rounded-2xl border-none text-white`}
           >
             Chat with {activeCoach.name} - Your {activeCoach.title}
             <MessageSquare className="ml-2 h-5 w-5" />
