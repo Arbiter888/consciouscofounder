@@ -8,7 +8,7 @@ interface CoachPreviewProps {
 
 const coachData = {
   strategy: {
-    name: "Atlas",
+    name: "Sophia",
     title: "Chief Strategy Officer",
     description: "Transform your strategic vision with personalized guidance from your dedicated AI-powered Strategy Officer.",
     gradient: "from-green-400 via-cyan-500 to-blue-500",
@@ -17,7 +17,7 @@ const coachData = {
     backgroundImage: "/lovable-uploads/440c76a5-97ea-4586-87db-b7ad21444b16.png"
   },
   product: {
-    name: "Nova",
+    name: "Isabella",
     title: "Chief Product Officer",
     description: "Transform your product roadmap with personalized guidance from your dedicated AI-powered Product Officer.",
     gradient: "from-pink-500 via-purple-500 to-indigo-500",
@@ -26,7 +26,7 @@ const coachData = {
     backgroundImage: "/lovable-uploads/4335b249-4c44-4b85-bbbf-fa72d693bc4f.png"
   },
   growth: {
-    name: "Pulse",
+    name: "Olivia",
     title: "Chief Marketing Officer",
     description: "Transform your marketing strategy with personalized guidance from your dedicated AI-powered Marketing Officer.",
     gradient: "from-yellow-400 via-orange-500 to-red-500",
@@ -35,7 +35,7 @@ const coachData = {
     backgroundImage: "/lovable-uploads/440c76a5-97ea-4586-87db-b7ad21444b16.png"
   },
   operations: {
-    name: "Nexus",
+    name: "Emma",
     title: "Chief Legal Officer",
     description: "Transform your legal strategy with personalized guidance from your dedicated AI-powered Legal Officer.",
     gradient: "from-lime-400 via-emerald-500 to-teal-500",
@@ -44,7 +44,7 @@ const coachData = {
     backgroundImage: "/lovable-uploads/2b866cad-b0b6-4291-b93e-404f8ef8e0e4.png"
   },
   finance: {
-    name: "Vector",
+    name: "Ava",
     title: "Chief Financial Officer",
     description: "Transform your financial strategy with personalized guidance from your dedicated AI-powered Financial Officer.",
     gradient: "from-blue-400 via-indigo-500 to-purple-500",
