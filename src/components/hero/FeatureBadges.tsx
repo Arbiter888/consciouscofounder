@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 
 export const FeatureBadges = () => {
   const features = [
-    { text: "Smart Goal Setting" },
-    { text: "AI-Powered Insights" },
-    { text: "Personal Growth" },
-    { text: "Daily Motivation" }
+    { text: "AI Co-Founder" },
+    { text: "Startup Strategy" },
+    { text: "Product Development" },
+    { text: "Growth & Fundraising" }
   ];
 
   return (

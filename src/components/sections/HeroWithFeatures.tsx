@@ -7,14 +7,14 @@ import { Bot, UserPlus, Users } from "lucide-react";
 const HeroWithFeatures = () => {
   const handleEmailClick = (type: 'signup' | 'referral') => {
     const subject = type === 'signup' 
-      ? 'Early Access Request for BornPurpose AI Avatar Coach'
-      : 'BornPurpose AI Avatar Coach Referral';
+      ? 'Early Access Request for Conscious AI Co-Founder'
+      : 'Conscious AI Co-Founder Referral';
     
     const body = type === 'signup'
-      ? 'Hello,\n\nI would like to request early access to my personal BornPurpose AI Avatar Coach.'
-      : 'Hello,\n\nI have a referral for BornPurpose AI Avatar Coach program.';
+      ? 'Hello,\n\nI would like to request early access to my personal Conscious AI Co-Founder.'
+      : 'Hello,\n\nI have a referral for Conscious AI Co-Founder program.';
     
-    const mailtoLink = `mailto:membership@bornpurpose.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailtoLink = `mailto:membership@conscious.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     window.location.href = mailtoLink;
   };
 
@@ -36,7 +36,7 @@ const HeroWithFeatures = () => {
           className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass mb-8"
         >
           <Bot className="w-5 h-5 text-gradient-rainbow" />
-          <span className="text-gradient-rainbow text-sm font-medium">Meet Presence & Her AI Avatar Coach Friends</span>
+          <span className="text-gradient-rainbow text-sm font-medium">Meet Conscious Co-Founder & Your AI Founding Team</span>
         </motion.div>
 
         <motion.div
@@ -46,7 +46,7 @@ const HeroWithFeatures = () => {
           className="flex items-center justify-center gap-2 mb-6"
         >
           <span className="text-2xl md:text-3xl font-medium inline-block">
-            Design your dream life with <span className="text-gradient-sunshine">BornPurpose</span>
+            Build your dream startup with <span className="text-gradient-sunshine">Conscious</span>
           </span>
         </motion.div>
         
@@ -63,7 +63,7 @@ const HeroWithFeatures = () => {
             transition={{ delay: 0.6 }}
             className="text-gradient-aurora block mt-2 relative"
           >
-            A New Life
+            Startup Success
           </motion.span>
         </motion.h1>
 
@@ -73,14 +73,14 @@ const HeroWithFeatures = () => {
           transition={{ delay: 0.5 }}
           className="mt-8 text-xl md:text-2xl text-muted-foreground/90 max-w-2xl mx-auto leading-relaxed glass p-6 rounded-xl"
         >
-          Join <span className="text-gradient-rainbow font-medium">Presence</span> and her carefully chosen 
-          <span className="text-gradient-aurora font-medium"> AI Avatar Coach friends</span> on a transformative journey. 
-          Connect with <span className="text-gradient-candy font-medium">like-minded members</span> to live life together 
-          as they guide you through <span className="text-gradient-sunshine font-medium">wellness</span>, 
-          <span className="text-gradient-neon font-medium"> nutrition</span>, 
-          <span className="text-gradient-mystic font-medium"> spiritual growth</span>, 
-          <span className="text-gradient-ocean font-medium"> fitness</span>, and 
-          <span className="text-gradient-cosmic font-medium"> financial success</span>.
+          Join <span className="text-gradient-rainbow font-medium">Conscious Co-Founder</span> and your carefully chosen 
+          <span className="text-gradient-aurora font-medium"> AI Founding Team</span> on an entrepreneurial journey. 
+          Connect with <span className="text-gradient-candy font-medium">like-minded founders</span> to build together 
+          as they guide you through <span className="text-gradient-sunshine font-medium">strategy</span>, 
+          <span className="text-gradient-neon font-medium"> product</span>, 
+          <span className="text-gradient-mystic font-medium"> growth</span>, 
+          <span className="text-gradient-ocean font-medium"> operations</span>, and 
+          <span className="text-gradient-cosmic font-medium"> fundraising</span>.
         </motion.p>
 
         <motion.div
@@ -108,7 +108,7 @@ const HeroWithFeatures = () => {
               }}
             />
             <UserPlus className="w-5 h-5" />
-            <span className="relative z-10">Begin Your Journey</span>
+            <span className="relative z-10">Start Your Startup Journey</span>
           </motion.button>
           
           <motion.button

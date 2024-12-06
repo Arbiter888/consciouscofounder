@@ -12,88 +12,88 @@ interface EnhancedChatPreviewProps {
 
 const coaches: Coach[] = [
   { 
-    id: "wellness", 
-    name: "Ava",
-    title: "Wellness Coach",
+    id: "strategy", 
+    name: "Atlas",
+    title: "Strategy Lead",
     gradient: "from-green-400 via-cyan-500 to-blue-500",
     bgGradient: "bg-gradient-to-r from-green-400 via-cyan-500 to-blue-500",
     examples: [
-      "How can I manage daily stress?",
-      "What are some good meditation practices?",
-      "Tips for better sleep habits?"
+      "How do I validate my startup idea?",
+      "What's my target market size?",
+      "How to create a business model?"
     ],
     capabilities: [
-      "Personalized wellness plans",
-      "Stress management techniques",
-      "Work-life balance guidance"
+      "Market analysis",
+      "Business model design",
+      "Strategic planning"
     ]
   },
   { 
-    id: "nutrition", 
-    name: "Olivia",
-    title: "Nutrition Expert",
+    id: "product", 
+    name: "Nova",
+    title: "Product Lead",
     gradient: "from-pink-500 via-purple-500 to-indigo-500",
     bgGradient: "bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500",
     examples: [
-      "How can I plan healthy meals?",
-      "What's a balanced breakfast?",
-      "Tips for portion control?"
+      "How to build an MVP?",
+      "What features should I prioritize?",
+      "User feedback analysis?"
     ],
     capabilities: [
-      "Meal planning assistance",
-      "Dietary recommendations",
-      "Nutritional guidance"
+      "Product roadmap",
+      "Feature prioritization",
+      "User experience design"
     ]
   },
   { 
-    id: "spiritual", 
-    name: "Amara",
-    title: "Spiritual Guide",
+    id: "growth", 
+    name: "Pulse",
+    title: "Growth Lead",
     gradient: "from-yellow-400 via-orange-500 to-red-500",
     bgGradient: "bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500",
     examples: [
-      "How to start meditation?",
-      "Daily spiritual practices?",
-      "Finding inner peace?"
+      "How to acquire first users?",
+      "Best marketing channels?",
+      "Sales strategy for B2B?"
     ],
     capabilities: [
-      "Meditation guidance",
-      "Spiritual development",
-      "Mindfulness practices"
+      "Growth strategy",
+      "Marketing planning",
+      "Sales optimization"
     ]
   },
   { 
-    id: "fitness", 
-    name: "Amber",
-    title: "Fitness Coach",
+    id: "operations", 
+    name: "Nexus",
+    title: "Operations Lead",
     gradient: "from-lime-400 via-emerald-500 to-teal-500",
     bgGradient: "bg-gradient-to-r from-lime-400 via-emerald-500 to-teal-500",
     examples: [
-      "Best exercises for beginners?",
-      "How to improve flexibility?",
-      "Creating a workout routine?"
+      "How to structure my team?",
+      "Best tools for startups?",
+      "Legal compliance needs?"
     ],
     capabilities: [
-      "Custom workout plans",
-      "Form guidance",
-      "Progress tracking"
+      "Team structure",
+      "Process optimization",
+      "Legal compliance"
     ]
   },
   { 
-    id: "financial", 
-    name: "Maya",
-    title: "Financial Advisor",
+    id: "finance", 
+    name: "Vector",
+    title: "Finance Lead",
     gradient: "from-blue-400 via-indigo-500 to-purple-500",
     bgGradient: "bg-gradient-to-r from-blue-400 via-indigo-500 to-purple-500",
     examples: [
-      "How to start budgeting?",
-      "Investment tips for beginners?",
-      "Saving for retirement?"
+      "How to raise seed funding?",
+      "Pitch deck feedback?",
+      "Cap table structure?"
     ],
     capabilities: [
-      "Financial planning",
-      "Investment guidance",
-      "Budget management"
+      "Fundraising strategy",
+      "Financial modeling",
+      "Investor relations"
     ]
   },
 ];
@@ -127,22 +127,22 @@ const EnhancedChatPreview = ({ onServiceChange }: EnhancedChatPreviewProps) => {
           <BulletList items={activeCoach.capabilities} gradient={activeCoach.bgGradient} />
         </PreviewCard>
 
-        <PreviewCard title="Expert Connections" gradient={activeCoach.gradient}>
+        <PreviewCard title="Expert Network" gradient={activeCoach.gradient}>
           <BulletList 
             items={[
-              `Professional ${activeCoach.title}s`,
-              "Certified Practitioners",
-              "Industry Specialists"
+              "Startup Founders",
+              "Industry Experts",
+              "Venture Capitalists"
             ]} 
             gradient={activeCoach.bgGradient}
           />
         </PreviewCard>
 
-        <PreviewCard title="User Testimonial" gradient={activeCoach.gradient}>
+        <PreviewCard title="Founder Testimonial" gradient={activeCoach.gradient}>
           <TestimonialCard
-            quote={`${activeCoach.name} helped me transform my ${activeCoach.id} journey. The personalized guidance and expert connections made all the difference!`}
-            author="John Doe"
-            initials="JD"
+            quote={`${activeCoach.name} helped me transform my startup journey. The strategic guidance and expert connections made all the difference!`}
+            author="Sarah Chen"
+            initials="SC"
             gradient={activeCoach.bgGradient}
           />
         </PreviewCard>
