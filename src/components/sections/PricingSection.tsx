@@ -3,59 +3,59 @@ import { Check, Users, Crown } from "lucide-react";
 
 const plans = [
   {
-    name: "Pro",
-    price: "$29",
-    description: "Essential AI coaching for personal growth",
+    name: "Investor Connect",
+    price: "$99",
+    description: "Get introduced to active investors",
     icon: Users,
     features: [
-      "Daily AI coaching sessions",
-      "Personal goal tracking",
-      "Basic wellness planning",
-      "Progress reports",
-      "Community access"
+      "AI-powered investor matching",
+      "Deal flow pipeline access",
+      "Pitch deck review",
+      "Monthly investor updates",
+      "Warm introductions"
     ],
-    credits: "200 credits/month",
-    creditValue: "Perfect for regular coaching support",
-    savings: "Save $450/month",
-    comparison: "vs. Traditional coaching at $480/month",
+    credits: "5 investor intros/month",
+    creditValue: "Perfect for seed-stage startups",
+    savings: "Save months of networking",
+    comparison: "vs. Traditional fundraising timeline",
     buttonColor: "text-gradient-candy"
   },
   {
-    name: "Whole Life",
-    price: "$99",
-    description: "Comprehensive AI coaching & expert support",
+    name: "Talent Pool",
+    price: "$199",
+    description: "Build your dream startup team",
     icon: Crown,
     features: [
-      "Unlimited AI coaching",
-      "Priority expert matching",
-      "Advanced wellness programs",
-      "Custom growth roadmaps",
-      "Expert consultations",
-      "Family account access"
+      "Access vetted startup talent",
+      "Skill-based matching",
+      "Equity compensation planning",
+      "Team culture assessment",
+      "Leadership coaching",
+      "Talent pipeline management"
     ],
-    credits: "500 credits/month",
-    creditValue: "Full access to AI & expert support",
-    savings: "Save $900/month",
-    comparison: "vs. Traditional services at $1000/month",
+    credits: "10 talent matches/month",
+    creditValue: "Build your dream team",
+    savings: "Save $10,000+ in recruiting fees",
+    comparison: "vs. Traditional recruiting costs",
     buttonColor: "text-gradient-sunshine"
   },
   {
-    name: "Life Together",
-    price: "$199",
-    description: "Premium community & transformation support",
+    name: "Global Talent",
+    price: "$299",
+    description: "Access global talent at local rates",
     icon: Users,
     features: [
-      "All Whole Life features",
-      "VIP community matching",
-      "Group coaching sessions",
-      "Leadership opportunities",
-      "Exclusive events access",
-      "Priority support 24/7"
+      "Access to offshore talent pool",
+      "Cost-effective hiring ($1000/mo)",
+      "Skills verification",
+      "Cultural alignment check",
+      "Time zone management",
+      "Remote work best practices"
     ],
-    credits: "Unlimited credits",
-    creditValue: "Complete access to all services",
-    savings: "Save $2000/month",
-    comparison: "vs. Premium programs at $2200/month",
+    credits: "Unlimited talent access",
+    creditValue: "Global talent pool access",
+    savings: "Save up to 75% on salaries",
+    comparison: "vs. U.S. market rates ($8000/mo)",
     buttonColor: "text-gradient-aurora"
   }
 ];
