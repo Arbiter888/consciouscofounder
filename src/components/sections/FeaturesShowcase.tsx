@@ -6,40 +6,40 @@ const features = [
     icon: Brain,
     title: "Your Personal Guide",
     description: [
-      "24/7 AI avatar coach support",
-      "Personalized development roadmaps",
-      "Comprehensive life assessment tools",
-      "Spiritual & financial wellness guidance",
-      "International relocation support"
+      "24/7 AI co-founder support",
+      "Strategic startup roadmaps",
+      "Comprehensive business assessment",
+      "Market & competitor analysis",
+      "Global expansion planning"
     ],
-    savings: "Save $500+/month on coaching services",
-    costComparison: "Traditional coaching: $150-200/session vs. Unlimited AI support across all life areas"
+    savings: "Save $2000+/month on consulting fees",
+    costComparison: "Traditional consulting: $300-500/hour vs. Unlimited AI co-founder support across all business areas"
   },
   {
     icon: Users,
-    title: "Meet Her Friends",
+    title: "Meet Your AI Team",
     description: [
-      "Connect with specialized AI coaches",
-      "Wellness & nutrition guidance",
-      "Spiritual & mindfulness support",
-      "Fitness & health expertise",
-      "Financial planning assistance"
+      "Connect with specialized AI experts",
+      "Product development guidance",
+      "Growth & marketing strategy",
+      "Operations excellence",
+      "Financial planning support"
     ],
-    savings: "Save $300+/month on specialized coaching",
-    costComparison: "Specialized coaches: $200+/session vs. Access to multiple AI expert coaches"
+    savings: "Save $15000+/month on early hires",
+    costComparison: "Early startup hires: $8-15k/month each vs. Full AI founding team access"
   },
   {
     icon: Sparkles,
-    title: "Community Matchmaker",
+    title: "Founder Network",
     description: [
-      "Connect with like-minded individuals",
-      "Find relationship matches",
-      "Discover business partnerships",
-      "Access real-world experts",
-      "Join supportive communities"
+      "Connect with fellow founders",
+      "Find potential co-founders",
+      "Discover investor networks",
+      "Access mentor community",
+      "Join founder circles"
     ],
-    savings: "Save $400+/month on networking services",
-    costComparison: "Professional matchmaking: $250+/month vs. AI-powered connections and introductions"
+    savings: "Save $1000+/month on networking",
+    costComparison: "Startup events & memberships: $500+/month vs. AI-powered networking & introductions"
   }
 ];
 
@@ -59,22 +59,22 @@ const FeaturesShowcase = () => {
         transition={{ duration: 0.6 }}
         className="text-center mb-16 relative z-10"
       >
-        <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gradient-aurora mb-4">Meet Presence, Your Personal Coach</h2>
+        <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gradient-aurora mb-4">Meet Conscious, Your AI Co-Founder</h2>
         <p className="text-xl text-muted-foreground/90 max-w-2xl mx-auto mb-12">
-          Meet your dedicated BornPurpose AI Avatar Coach - your personal guide to transformation. Experience 24/7 support and expert guidance tailored just for you. <span className="text-gradient-sunshine font-semibold">Save up to ${totalMonthlySavings}+ monthly</span> compared to traditional coaching services.
+          Experience your dedicated Conscious AI Co-Founder - your strategic partner in building a successful startup. Get 24/7 support and expert guidance tailored to your venture. <span className="text-gradient-sunshine font-semibold">Save up to ${totalMonthlySavings}+ monthly</span> compared to traditional startup costs.
         </p>
         
         <div className="max-w-3xl mx-auto mb-16 relative">
           <div className="aspect-video rounded-2xl overflow-hidden glass border border-white/10">
             <iframe
               src="https://www.youtube.com/embed/bMmirsbJPEc"
-              title="Preview Your BornPurpose AI Avatar Coach"
+              title="Preview Your Conscious AI Co-Founder"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
               className="w-full h-full"
             />
           </div>
-          <p className="text-sm text-muted-foreground/70 mt-4">Preview how your personalized AI avatar coach will guide and support you on your journey</p>
+          <p className="text-sm text-muted-foreground/70 mt-4">See how your AI co-founder will help build and scale your startup</p>
         </div>
       </motion.div>
 
