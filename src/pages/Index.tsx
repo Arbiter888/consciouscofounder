@@ -9,40 +9,40 @@ import PricingSection from "@/components/sections/PricingSection";
 import CallToAction from "@/components/sections/CallToAction";
 
 const coachInfo = {
-  wellness: {
-    name: "Ava",
-    title: "Wellness Coach",
+  strategy: {
+    name: "Atlas",
+    title: "Chief Strategy Officer",
     gradient: "from-green-400 via-cyan-500 to-blue-500",
     bgGradient: "bg-gradient-to-r from-green-400 via-cyan-500 to-blue-500"
   },
-  nutrition: {
-    name: "Olivia",
-    title: "Nutrition Expert",
+  product: {
+    name: "Nova",
+    title: "Chief Product Officer",
     gradient: "from-pink-500 via-purple-500 to-indigo-500",
     bgGradient: "bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500"
   },
-  spiritual: {
-    name: "Amara",
-    title: "Spiritual Guide",
+  growth: {
+    name: "Pulse",
+    title: "Chief Growth Officer",
     gradient: "from-yellow-400 via-orange-500 to-red-500",
     bgGradient: "bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500"
   },
-  fitness: {
-    name: "Amber",
-    title: "Fitness Expert",
+  operations: {
+    name: "Nexus",
+    title: "Chief Operations Officer",
     gradient: "from-lime-400 via-emerald-500 to-teal-500",
     bgGradient: "bg-gradient-to-r from-lime-400 via-emerald-500 to-teal-500"
   },
-  financial: {
-    name: "Maya",
-    title: "Financial Advisor",
+  finance: {
+    name: "Vector",
+    title: "Chief Financial Officer",
     gradient: "from-blue-400 via-indigo-500 to-purple-500",
     bgGradient: "bg-gradient-to-r from-blue-400 via-indigo-500 to-purple-500"
   }
 };
 
 const Index = () => {
-  const [selectedService, setSelectedService] = useState("wellness");
+  const [selectedService, setSelectedService] = useState("strategy");
   const [scrollProgress, setScrollProgress] = useState(0);
 
   const handleScroll = () => {
@@ -97,10 +97,10 @@ const Index = () => {
               className="text-center mb-8 md:mb-16"
             >
               <h2 className={`text-4xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-r ${activeCoach.gradient} bg-clip-text text-transparent mb-4`}>
-                Meet her Friend, {activeCoach.name}, your new AI {activeCoach.title}
+                Meet {activeCoach.name}, your {activeCoach.title}
               </h2>
               <p className="text-lg md:text-xl text-muted-foreground/90 max-w-2xl mx-auto">
-                Choose your personal AI coach and start your journey to a better life
+                Choose your AI founding team member and start building your startup together
               </p>
             </motion.div>
 
