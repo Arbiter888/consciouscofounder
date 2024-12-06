@@ -23,7 +23,7 @@
 }
 
 .glass {
-  @apply bg-white/5 backdrop-blur-lg border border-black/10 shadow-xl shadow-black/5;
+  @apply bg-black/5 backdrop-blur-lg border border-black/10 shadow-xl shadow-black/5;
 }
 
 .text-gradient {

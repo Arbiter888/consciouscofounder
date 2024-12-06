@@ -6,7 +6,7 @@ const ChatPreview = () => {
     <motion.div 
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      className="glass rounded-3xl p-8 max-w-3xl mx-auto backdrop-blur-xl bg-white/40"
+      className="glass rounded-3xl p-8 max-w-3xl mx-auto backdrop-blur-xl bg-black/40"
     >
       <div className="space-y-6">
         <motion.div 
@@ -16,7 +16,7 @@ const ChatPreview = () => {
           className="flex items-start gap-4"
         >
           <div className="w-10 h-10 rounded-full bg-gradient-to-r from-green-400 to-blue-500 flex-shrink-0 animate-pulse flex items-center justify-center">
-            <span className="text-gray-900 text-xl">🤖</span>
+            <span className="text-white text-xl">🤖</span>
           </div>
           <div className="flex flex-col space-y-1 max-w-[80%]">
             <p className="text-lg bg-gradient-to-r from-purple-400 via-pink-500 to-blue-500 bg-clip-text text-transparent">
@@ -39,7 +39,7 @@ const ChatPreview = () => {
             </div>
           </div>
           <div className="w-10 h-10 rounded-full bg-white/10 flex-shrink-0 flex items-center justify-center">
-            <span className="text-gray-900 text-xl">👤</span>
+            <span className="text-white text-xl">👤</span>
           </div>
         </motion.div>
         
@@ -50,7 +50,7 @@ const ChatPreview = () => {
           className="flex items-start gap-4"
         >
           <div className="w-10 h-10 rounded-full bg-gradient-to-r from-green-400 to-blue-500 flex-shrink-0 animate-pulse flex items-center justify-center">
-            <span className="text-gray-900 text-xl">🤖</span>
+            <span className="text-white text-xl">🤖</span>
           </div>
           <div className="flex flex-col space-y-4 max-w-[80%]">
             <p className="text-lg bg-gradient-to-r from-purple-400 via-pink-500 to-blue-500 bg-clip-text text-transparent">
@@ -78,14 +78,14 @@ const ChatPreview = () => {
         <input 
           type="text" 
           placeholder="Type your message..." 
-          className="flex-1 glass rounded-full px-6 py-4 focus:outline-none focus:ring-2 focus:ring-secondary/50 transition-all text-lg bg-white/5 text-gray-900 placeholder-gray-500"
+          className="flex-1 glass rounded-full px-6 py-4 focus:outline-none focus:ring-2 focus:ring-secondary/50 transition-all text-lg bg-white/5"
         />
         <motion.button 
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           className="glass p-4 rounded-full hover:bg-white/10 transition-colors group"
         >
-          <Send className="w-6 h-6 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1 text-gray-900" />
+          <Send className="w-6 h-6 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" />
         </motion.button>
       </div>
     </motion.div>
