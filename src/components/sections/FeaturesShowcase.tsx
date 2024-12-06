@@ -1,45 +1,45 @@
 import { motion } from "framer-motion";
-import { Brain, Heart, Globe, Users, Sparkles, DollarSign } from "lucide-react";
+import { Brain, Heart, Globe, Users, Sparkles, DollarSign, Briefcase } from "lucide-react";
 
 const features = [
   {
-    icon: Brain,
-    title: "Your Personal Guide",
+    icon: Briefcase,
+    title: "Investor Connections",
     description: [
-      "24/7 AI co-founder support",
-      "Strategic startup roadmaps",
-      "Comprehensive business assessment",
-      "Market & competitor analysis",
-      "Global expansion planning"
+      "Get added to investors' deal flow pipeline",
+      "AI-powered investor matching",
+      "Pitch deck review assistance",
+      "Warm introductions to VCs",
+      "Monthly investor updates"
     ],
-    savings: "Save $2000+/month on consulting fees",
-    costComparison: "Traditional consulting: $300-500/hour vs. Unlimited AI co-founder support across all business areas"
+    savings: "Save months of networking time",
+    costComparison: "Traditional fundraising timeline: 6-12 months vs. AI-accelerated matches in weeks"
   },
   {
     icon: Users,
-    title: "Meet Your AI Team",
+    title: "Startup Talent",
     description: [
-      "Connect with specialized AI experts",
-      "Product development guidance",
-      "Growth & marketing strategy",
-      "Operations excellence",
-      "Financial planning support"
+      "Build your dream team post-funding",
+      "Access vetted startup professionals",
+      "Equity compensation planning",
+      "Leadership team building",
+      "Culture fit assessment"
     ],
-    savings: "Save $15000+/month on early hires",
-    costComparison: "Early startup hires: $8-15k/month each vs. Full AI founding team access"
+    savings: "Save $10,000+ in recruiting fees",
+    costComparison: "Traditional recruiter: 20-30% of salary vs. Direct talent pool access"
   },
   {
-    icon: Sparkles,
-    title: "Founder Network",
+    icon: Globe,
+    title: "Offshore Talent",
     description: [
-      "Connect with fellow founders",
-      "Find potential co-founders",
-      "Discover investor networks",
-      "Access mentor community",
-      "Join founder circles"
+      "Access global talent at local rates",
+      "Verified skills and experience",
+      "Remote work best practices",
+      "Cultural alignment check",
+      "Time zone management"
     ],
-    savings: "Save $1000+/month on networking",
-    costComparison: "Startup events & memberships: $500+/month vs. AI-powered networking & introductions"
+    savings: "Save up to 75% on salaries",
+    costComparison: "US developer: $8,000/month vs. Malaysia: $1,000/month"
   }
 ];
 
@@ -59,23 +59,10 @@ const FeaturesShowcase = () => {
         transition={{ duration: 0.6 }}
         className="text-center mb-16 relative z-10"
       >
-        <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gradient-aurora mb-4">Meet Conscious, Your AI Co-Founder</h2>
+        <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gradient-aurora mb-4">Meet Your Future Team</h2>
         <p className="text-xl text-muted-foreground/90 max-w-2xl mx-auto mb-12">
-          Experience your dedicated Conscious AI Co-Founder - your strategic partner in building a successful startup. Get 24/7 support and expert guidance tailored to your venture. <span className="text-gradient-sunshine font-semibold">Save up to ${totalMonthlySavings}+ monthly</span> compared to traditional startup costs.
+          Connect with investors, startup talent, and global professionals through our AI-powered matching system. Build your dream team while optimizing costs.
         </p>
-        
-        <div className="max-w-3xl mx-auto mb-16 relative">
-          <div className="aspect-video rounded-2xl overflow-hidden glass border border-white/10">
-            <iframe
-              src="https://www.youtube.com/embed/bMmirsbJPEc"
-              title="Preview Your Conscious AI Co-Founder"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              className="w-full h-full"
-            />
-          </div>
-          <p className="text-sm text-muted-foreground/70 mt-4">See how your AI co-founder will help build and scale your startup</p>
-        </div>
       </motion.div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto relative z-10">
