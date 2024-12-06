@@ -1,45 +1,45 @@
 import { motion } from "framer-motion";
-import { Brain, Heart, Globe, Users, Sparkles, DollarSign, Briefcase } from "lucide-react";
+import { Brain, Heart, Globe, Users, Sparkles, DollarSign } from "lucide-react";
 
 const features = [
   {
-    icon: Briefcase,
-    title: "Investor Connections",
+    icon: Brain,
+    title: "AI Co-founder",
     description: [
-      "Get added to investors' deal flow pipeline",
-      "AI-powered investor matching",
-      "Pitch deck review assistance",
-      "Warm introductions to VCs",
-      "Monthly investor updates"
+      "24/7 strategic guidance and support",
+      "Business plan development",
+      "Market analysis insights",
+      "Growth strategy planning",
+      "Risk assessment and mitigation"
     ],
-    savings: "Save months of networking time",
-    costComparison: "Traditional fundraising timeline: 6-12 months vs. AI-accelerated matches in weeks"
+    savings: "Save $2,000+ in consulting fees",
+    costComparison: "Traditional consulting: $500/hour vs. Unlimited AI support"
   },
   {
-    icon: Users,
-    title: "Startup Talent",
+    icon: Heart,
+    title: "AI Coaches Network",
     description: [
-      "Build your dream team post-funding",
-      "Access vetted startup professionals",
-      "Equity compensation planning",
-      "Leadership team building",
-      "Culture fit assessment"
+      "Access specialized AI coaches",
+      "Product development guidance",
+      "Marketing strategy support",
+      "Financial planning assistance",
+      "Operations optimization"
     ],
-    savings: "Save $10,000+ in recruiting fees",
-    costComparison: "Traditional recruiter: 20-30% of salary vs. Direct talent pool access"
+    savings: "Save $5,000+ in coaching fees",
+    costComparison: "Professional coaches: $300/hour vs. Multiple AI coaches access"
   },
   {
     icon: Globe,
-    title: "Offshore Talent",
+    title: "Complete Growth Suite",
     description: [
-      "Access global talent at local rates",
-      "Verified skills and experience",
-      "Remote work best practices",
-      "Cultural alignment check",
-      "Time zone management"
+      "Full platform capabilities",
+      "Investor matchmaking access",
+      "Startup team building",
+      "Global talent solutions",
+      "Comprehensive support system"
     ],
-    savings: "Save up to 75% on salaries",
-    costComparison: "US developer: $8,000/month vs. Malaysia: $1,000/month"
+    savings: "Save $10,000+ in total costs",
+    costComparison: "Traditional startup costs vs. Integrated AI solution"
   }
 ];
 
@@ -59,9 +59,9 @@ const FeaturesShowcase = () => {
         transition={{ duration: 0.6 }}
         className="text-center mb-16 relative z-10"
       >
-        <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gradient-aurora mb-4">Meet Your Future Team</h2>
+        <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gradient-aurora mb-4">Your AI Support System</h2>
         <p className="text-xl text-muted-foreground/90 max-w-2xl mx-auto mb-12">
-          Connect with investors, startup talent, and global professionals through our AI-powered matching system. Build your dream team while optimizing costs.
+          Experience comprehensive startup support with our AI-powered platform. From strategic guidance to specialized coaching, we're here to help you succeed.
         </p>
       </motion.div>
 
