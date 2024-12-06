@@ -10,31 +10,31 @@ import CallToAction from "@/components/sections/CallToAction";
 
 const coachInfo = {
   strategy: {
-    name: "Atlas",
+    name: "Sophia",
     title: "Chief Strategy Officer",
     gradient: "from-green-400 via-cyan-500 to-blue-500",
     bgGradient: "bg-gradient-to-r from-green-400 via-cyan-500 to-blue-500"
   },
   product: {
-    name: "Nova",
+    name: "Isabella",
     title: "Chief Product Officer",
     gradient: "from-pink-500 via-purple-500 to-indigo-500",
     bgGradient: "bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500"
   },
   growth: {
-    name: "Pulse",
+    name: "Olivia",
     title: "Chief Marketing Officer",
     gradient: "from-yellow-400 via-orange-500 to-red-500",
     bgGradient: "bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500"
   },
   operations: {
-    name: "Nexus",
+    name: "Emma",
     title: "Chief Legal Officer",
     gradient: "from-lime-400 via-emerald-500 to-teal-500",
     bgGradient: "bg-gradient-to-r from-lime-400 via-emerald-500 to-teal-500"
   },
   finance: {
-    name: "Vector",
+    name: "Ava",
     title: "Chief Financial Officer",
     gradient: "from-blue-400 via-indigo-500 to-purple-500",
     bgGradient: "bg-gradient-to-r from-blue-400 via-indigo-500 to-purple-500"
