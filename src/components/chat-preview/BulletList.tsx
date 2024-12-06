@@ -14,7 +14,7 @@ export const BulletList = ({ items, gradient }: BulletListProps) => {
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay: index * 0.1 }}
-          className="flex items-center space-x-3 text-white/90"
+          className="flex items-center space-x-3 text-gray-900"
         >
           <div className={`w-2 h-2 rounded-full ${gradient}`} />
           <span>{item}</span>
