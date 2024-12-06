@@ -4,42 +4,42 @@ import { Brain, Heart, Globe, Users, Sparkles, DollarSign } from "lucide-react";
 const features = [
   {
     icon: Brain,
-    title: "AI Co-founder",
+    title: "Your Personal Guide",
     description: [
-      "24/7 strategic guidance and support",
-      "Business plan development",
-      "Market analysis insights",
-      "Growth strategy planning",
-      "Risk assessment and mitigation"
+      "24/7 AI co-founder support",
+      "Strategic startup roadmaps",
+      "Comprehensive business assessment",
+      "Market & competitor analysis",
+      "Global expansion planning"
     ],
-    savings: "Save $2,000+ in consulting fees",
-    costComparison: "Traditional consulting: $500/hour vs. Unlimited AI support"
+    savings: "Save $2000+/month on consulting fees",
+    costComparison: "Traditional consulting: $300-500/hour vs. Unlimited AI co-founder support across all business areas"
   },
   {
-    icon: Heart,
-    title: "AI Coaches Network",
+    icon: Users,
+    title: "Meet Your AI Team",
     description: [
-      "Access specialized AI coaches",
+      "Connect with specialized AI experts",
       "Product development guidance",
-      "Marketing strategy support",
-      "Financial planning assistance",
-      "Operations optimization"
+      "Growth & marketing strategy",
+      "Operations excellence",
+      "Financial planning support"
     ],
-    savings: "Save $5,000+ in coaching fees",
-    costComparison: "Professional coaches: $300/hour vs. Multiple AI coaches access"
+    savings: "Save $15000+/month on early hires",
+    costComparison: "Early startup hires: $8-15k/month each vs. Full AI founding team access"
   },
   {
-    icon: Globe,
-    title: "Complete Growth Suite",
+    icon: Sparkles,
+    title: "Founder Network",
     description: [
-      "Full platform capabilities",
-      "Investor matchmaking access",
-      "Startup team building",
-      "Global talent solutions",
-      "Comprehensive support system"
+      "Connect with fellow founders",
+      "Find potential co-founders",
+      "Discover investor networks",
+      "Access mentor community",
+      "Join founder circles"
     ],
-    savings: "Save $10,000+ in total costs",
-    costComparison: "Traditional startup costs vs. Integrated AI solution"
+    savings: "Save $1000+/month on networking",
+    costComparison: "Startup events & memberships: $500+/month vs. AI-powered networking & introductions"
   }
 ];
 
@@ -59,10 +59,23 @@ const FeaturesShowcase = () => {
         transition={{ duration: 0.6 }}
         className="text-center mb-16 relative z-10"
       >
-        <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gradient-aurora mb-4">Your AI Support System</h2>
+        <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gradient-aurora mb-4">Meet Conscious, Your AI Co-Founder</h2>
         <p className="text-xl text-muted-foreground/90 max-w-2xl mx-auto mb-12">
-          Experience comprehensive startup support with our AI-powered platform. From strategic guidance to specialized coaching, we're here to help you succeed.
+          Experience your dedicated Conscious AI Co-Founder - your strategic partner in building a successful startup. Get 24/7 support and expert guidance tailored to your venture. <span className="text-gradient-sunshine font-semibold">Save up to ${totalMonthlySavings}+ monthly</span> compared to traditional startup costs.
         </p>
+        
+        <div className="max-w-3xl mx-auto mb-16 relative">
+          <div className="aspect-video rounded-2xl overflow-hidden glass border border-white/10">
+            <iframe
+              src="https://www.youtube.com/embed/bMmirsbJPEc"
+              title="Preview Your Conscious AI Co-Founder"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="w-full h-full"
+            />
+          </div>
+          <p className="text-sm text-muted-foreground/70 mt-4">See how your AI co-founder will help build and scale your startup</p>
+        </div>
       </motion.div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto relative z-10">
