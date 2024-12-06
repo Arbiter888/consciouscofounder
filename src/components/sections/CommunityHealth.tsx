@@ -1,75 +1,75 @@
 import { motion, AnimatePresence } from "framer-motion";
-import { Heart, Users, Handshake } from "lucide-react";
+import { Briefcase, Users, Globe } from "lucide-react";
 import { ConnectionCategory } from "../community/ConnectionCategory";
 import { useState, useEffect } from "react";
 
 const categories = [
   {
-    title: "Business Connections",
-    titleText: "Meet your New Business Partner",
-    description: "Find partners who share your vision and values for professional growth",
-    icon: Handshake,
-    iconColor: "text-cyan-500",
+    title: "Investor Connections",
+    titleText: "Meet Investor Connections",
+    description: "Get added to investors' deal flow pipeline and secure funding for your startup",
+    icon: Briefcase,
+    iconColor: "text-emerald-500",
     matches: [
       {
         name: "Sarah Chen",
         image: "https://i.pravatar.cc/150?img=47",
-        aiCoach: "Career AI Coach",
-        aiSuggestion: "Sarah's focus on mindful leadership and sustainable business practices aligns perfectly with your entrepreneurial goals.",
-        interests: ["Entrepreneurship", "Wellness", "Innovation"]
+        aiCoach: "Investment AI Coach",
+        aiSuggestion: "Sarah's VC firm focuses on early-stage SaaS startups with $500K-$2M seed rounds. Your business model aligns with their investment thesis.",
+        interests: ["SaaS", "B2B", "AI/ML"]
       },
       {
-        name: "David Park",
+        name: "Michael Ross",
         image: "https://i.pravatar.cc/150?img=12",
-        aiCoach: "Career AI Coach",
-        aiSuggestion: "David's expertise in sustainable business models could complement your growth strategy.",
-        interests: ["Sustainability", "Tech", "Leadership"]
+        aiCoach: "Investment AI Coach",
+        aiSuggestion: "Michael's angel syndicate is actively looking for AI-powered startups in your space.",
+        interests: ["Deep Tech", "Enterprise", "AI"]
       }
     ]
   },
   {
-    title: "Friendship Matches",
-    titleText: "Meet your New Friend",
-    description: "Connect with like-minded individuals who share your interests and values",
+    title: "Startup Talent",
+    titleText: "Meet Talent",
+    description: "Build your dream team with passionate professionals ready to join your startup post-funding",
     icon: Users,
-    iconColor: "text-purple-500",
+    iconColor: "text-blue-500",
     matches: [
       {
-        name: "Michael Rivera",
+        name: "David Park",
         image: "https://i.pravatar.cc/150?img=68",
-        aiCoach: "Wellness AI Coach",
-        aiSuggestion: "Michael's dedication to personal growth and meditation practice resonates with your spiritual journey.",
-        interests: ["Meditation", "Fitness", "Reading"]
+        aiCoach: "Talent AI Coach",
+        aiSuggestion: "David is a senior full-stack developer with startup experience, willing to join with equity + salary post-funding.",
+        interests: ["Full-Stack", "AI/ML", "Product"]
       },
       {
         name: "Lisa Wong",
         image: "https://i.pravatar.cc/150?img=32",
-        aiCoach: "Wellness AI Coach",
-        aiSuggestion: "Lisa's passion for mindfulness and community building aligns with your interests.",
-        interests: ["Yoga", "Art", "Community"]
+        aiCoach: "Talent AI Coach",
+        aiSuggestion: "Lisa is a product manager from a unicorn startup, interested in joining early-stage ventures.",
+        interests: ["Product", "Strategy", "Growth"]
       }
     ]
   },
   {
-    title: "Romantic Connections",
-    titleText: "Meet your Life Partner",
-    description: "Discover meaningful relationships based on shared values and life goals",
-    icon: Heart,
-    iconColor: "text-pink-500",
+    title: "Offshore Talent",
+    titleText: "Meet Offshore Talent",
+    description: "Connect with skilled international professionals for cost-effective team scaling",
+    icon: Globe,
+    iconColor: "text-purple-500",
     matches: [
       {
-        name: "Emma Thompson",
+        name: "Aisha Rahman",
         image: "https://i.pravatar.cc/150?img=45",
-        aiCoach: "Relationship AI Coach",
-        aiSuggestion: "Emma's approach to life-work balance and spiritual growth mirrors yours beautifully.",
-        interests: ["Travel", "Wellness", "Arts"]
+        aiCoach: "Global Talent AI Coach",
+        aiSuggestion: "Based in Malaysia, Aisha is a full-stack developer available for $1,000/month - an 85% cost saving vs. US rates ($6,500/month).",
+        interests: ["React", "Node.js", "AWS"]
       },
       {
-        name: "James Wilson",
+        name: "Raj Patel",
         image: "https://i.pravatar.cc/150?img=15",
-        aiCoach: "Relationship AI Coach",
-        aiSuggestion: "James shares your passion for personal development and mindful living.",
-        interests: ["Mindfulness", "Nature", "Growth"]
+        aiCoach: "Global Talent AI Coach",
+        aiSuggestion: "Senior UI/UX designer from Malaysia seeking $1,200/month - significant savings compared to US rates ($8,000/month).",
+        interests: ["UI/UX", "Figma", "Design Systems"]
       }
     ]
   }
