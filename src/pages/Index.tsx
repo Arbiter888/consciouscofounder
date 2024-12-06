@@ -60,7 +60,7 @@ const Index = () => {
   const activeCoach = coachInfo[selectedService as keyof typeof coachInfo];
 
   return (
-    <div className="min-h-screen bg-black text-white relative">
+    <div className="min-h-screen bg-white text-black relative">
       <div className="fixed inset-0 pointer-events-none z-50">
         <motion.div 
           className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 opacity-60"
@@ -99,7 +99,7 @@ const Index = () => {
               <h2 className={`text-4xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-r ${activeCoach.gradient} bg-clip-text text-transparent mb-4`}>
                 Meet {activeCoach.name}, your {activeCoach.title}
               </h2>
-              <p className="text-lg md:text-xl text-muted-foreground/90 max-w-2xl mx-auto">
+              <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
                 Choose your AI founding team member and start building your startup together
               </p>
             </motion.div>
