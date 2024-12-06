@@ -45,7 +45,7 @@ const HeroWithFeatures = () => {
           transition={{ delay: 0.3 }}
           className="flex items-center justify-center gap-2 mb-6"
         >
-          <span className="text-2xl md:text-3xl font-medium inline-block">
+          <span className="text-2xl md:text-3xl font-medium inline-block text-gray-800">
             Build your dream startup with <span className="text-gradient-sunshine">Conscious</span>
           </span>
         </motion.div>
@@ -54,7 +54,7 @@ const HeroWithFeatures = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4 }}
-          className="mt-6 text-6xl sm:text-7xl lg:text-8xl font-bold tracking-tight leading-tight"
+          className="mt-6 text-6xl sm:text-7xl lg:text-8xl font-bold tracking-tight leading-tight text-gray-900"
         >
           Your Journey to
           <motion.span
@@ -71,7 +71,7 @@ const HeroWithFeatures = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5 }}
-          className="mt-8 text-xl md:text-2xl text-muted-foreground/90 max-w-2xl mx-auto leading-relaxed glass p-6 rounded-xl"
+          className="mt-8 text-xl md:text-2xl text-gray-600 max-w-2xl mx-auto leading-relaxed glass p-6 rounded-xl"
         >
           Join <span className="text-gradient-rainbow font-medium">Conscious Co-Founder</span> and your carefully chosen 
           <span className="text-gradient-aurora font-medium"> AI Founding Team</span> on an entrepreneurial journey. 
@@ -93,7 +93,7 @@ const HeroWithFeatures = () => {
             onClick={() => handleEmailClick('signup')}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="glass px-8 py-4 rounded-full font-medium hover-lift flex items-center gap-2 group text-lg relative overflow-hidden"
+            className="glass px-8 py-4 rounded-full font-medium hover-lift flex items-center gap-2 group text-lg relative overflow-hidden text-gray-800"
           >
             <motion.div
               className="absolute inset-0 bg-gradient-to-r from-secondary/20 to-accent/20"
@@ -115,7 +115,7 @@ const HeroWithFeatures = () => {
             onClick={() => handleEmailClick('referral')}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="px-8 py-4 rounded-full font-medium border border-white/10 hover:bg-white/5 transition-colors text-lg relative overflow-hidden flex items-center gap-2"
+            className="px-8 py-4 rounded-full font-medium border border-white/10 hover:bg-white/5 transition-colors text-lg relative overflow-hidden flex items-center gap-2 text-gray-800"
           >
             <motion.div
               className="absolute inset-0 bg-gradient-to-r from-tertiary/20 to-highlight/20"
