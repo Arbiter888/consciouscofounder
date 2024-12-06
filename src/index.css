@@ -4,11 +4,11 @@
 
 @layer base {
   :root {
-    --background: 0 0% 0%;
-    --foreground: 0 0% 100%;
-    --border: 0 0% 20%;
-    --input: 0 0% 20%;
-    --ring: 0 0% 83.1%;
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 5% 64.9%;
     --radius: 0.75rem;
   }
 }
@@ -23,7 +23,7 @@
 }
 
 .glass {
-  @apply bg-white/5 backdrop-blur-lg border border-white/10 shadow-xl shadow-black/10;
+  @apply bg-white/80 backdrop-blur-lg border border-white/20 shadow-lg;
 }
 
 .text-gradient {
@@ -69,5 +69,5 @@ html {
 
 /* Add text selection styling */
 ::selection {
-  @apply bg-secondary/30 text-white;
+  @apply bg-secondary/30 text-foreground;
 }
