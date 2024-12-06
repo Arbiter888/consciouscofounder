@@ -7,55 +7,59 @@ interface CoachPreviewProps {
 }
 
 const coachData = {
-  wellness: {
-    name: "Ava",
-    title: "Mental Wellness Coach",
-    description: "Transform your mental well-being with personalized guidance from your dedicated AI-powered Wellness Coach.",
+  strategy: {
+    name: "Atlas",
+    title: "Chief Strategy Officer",
+    description: "Transform your strategic vision with personalized guidance from your dedicated AI-powered Strategy Officer.",
     gradient: "from-green-400 via-cyan-500 to-blue-500",
-    tags: ["Stress Management", "Mindfulness", "Emotional Balance"],
+    tags: ["Strategic Planning", "Market Analysis", "Business Development"],
     videoUrl: "https://www.youtube.com/embed/GkOue0KxWaQ",
     backgroundImage: "/lovable-uploads/440c76a5-97ea-4586-87db-b7ad21444b16.png"
   },
-  nutrition: {
-    name: "Olivia",
-    title: "Nutrition Expert",
-    description: "Transform your dietary habits with personalized guidance from your dedicated AI-powered Nutrition Coach.",
+  product: {
+    name: "Nova",
+    title: "Chief Product Officer",
+    description: "Transform your product roadmap with personalized guidance from your dedicated AI-powered Product Officer.",
     gradient: "from-pink-500 via-purple-500 to-indigo-500",
-    tags: ["Meal Planning", "Portion Control", "Dietary Analysis"],
+    tags: ["Product Strategy", "User Experience", "Feature Planning"],
     videoUrl: "https://www.youtube.com/embed/_9x2l119RGw",
     backgroundImage: "/lovable-uploads/4335b249-4c44-4b85-bbbf-fa72d693bc4f.png"
   },
-  spiritual: {
-    name: "Amara",
-    title: "Spiritual Guide",
-    description: "Transform your spiritual journey with personalized guidance from your dedicated AI-powered Spiritual Coach.",
+  growth: {
+    name: "Pulse",
+    title: "Chief Marketing Officer",
+    description: "Transform your marketing strategy with personalized guidance from your dedicated AI-powered Marketing Officer.",
     gradient: "from-yellow-400 via-orange-500 to-red-500",
-    tags: ["Meditation", "Mindfulness", "Spiritual Growth"],
+    tags: ["Marketing Strategy", "Brand Development", "Growth Hacking"],
     videoUrl: "https://www.youtube.com/embed/4cmO7dEGQBk",
     backgroundImage: "/lovable-uploads/440c76a5-97ea-4586-87db-b7ad21444b16.png"
   },
-  fitness: {
-    name: "Amber",
-    title: "Fitness Expert",
-    description: "Transform your fitness journey with personalized guidance from your dedicated AI-powered Fitness Coach.",
+  operations: {
+    name: "Nexus",
+    title: "Chief Legal Officer",
+    description: "Transform your legal strategy with personalized guidance from your dedicated AI-powered Legal Officer.",
     gradient: "from-lime-400 via-emerald-500 to-teal-500",
-    tags: ["Workout Planning", "Form Guidance", "Exercise Tips"],
+    tags: ["Legal Compliance", "Risk Management", "Contract Review"],
     videoUrl: "https://www.youtube.com/embed/O0o-Y25rv7c",
     backgroundImage: "/lovable-uploads/2b866cad-b0b6-4291-b93e-404f8ef8e0e4.png"
   },
-  financial: {
-    name: "Maya",
-    title: "Financial Coach",
-    description: "Transform your financial future with personalized guidance from your dedicated AI-powered Financial Coach.",
+  finance: {
+    name: "Vector",
+    title: "Chief Financial Officer",
+    description: "Transform your financial strategy with personalized guidance from your dedicated AI-powered Financial Officer.",
     gradient: "from-blue-400 via-indigo-500 to-purple-500",
-    tags: ["Investment Planning", "Budgeting", "Wealth Building"],
+    tags: ["Financial Planning", "Investment Strategy", "Risk Analysis"],
     videoUrl: "https://www.youtube.com/embed/UiJ0OfgSt1M",
     backgroundImage: "/lovable-uploads/e1950664-3053-4b9a-aed1-78f46c6e7573.png"
-  },
+  }
 };
 
 const CoachPreview = ({ activeService }: CoachPreviewProps) => {
   const coach = coachData[activeService as keyof typeof coachData];
+
+  if (!coach) {
+    return null; // Add a safety check
+  }
 
   return (
     <motion.div
