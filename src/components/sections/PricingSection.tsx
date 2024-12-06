@@ -1,61 +1,61 @@
 import { motion } from "framer-motion";
-import { Check, Users, Crown } from "lucide-react";
+import { Check, Users, Crown, Brain } from "lucide-react";
 
 const plans = [
   {
-    name: "Investor Connect",
+    name: "Basic",
     price: "$99",
-    description: "Get introduced to active investors",
-    icon: Users,
+    description: "Your AI Co-founder Support",
+    icon: Brain,
     features: [
-      "AI-powered investor matching",
-      "Deal flow pipeline access",
-      "Pitch deck review",
-      "Monthly investor updates",
-      "Warm introductions"
+      "24/7 AI co-founder access",
+      "Strategic startup guidance",
+      "Business plan development",
+      "Market analysis support",
+      "Growth strategy planning"
     ],
-    credits: "5 investor intros/month",
-    creditValue: "Perfect for seed-stage startups",
-    savings: "Save months of networking",
-    comparison: "vs. Traditional fundraising timeline",
+    credits: "Unlimited AI support",
+    creditValue: "Perfect for early-stage founders",
+    savings: "Save $2000+/month",
+    comparison: "vs. Traditional consulting fees",
     buttonColor: "text-gradient-candy"
   },
   {
-    name: "Talent Pool",
+    name: "Pro",
     price: "$199",
-    description: "Build your dream startup team",
+    description: "Access AI Coaches Network",
     icon: Crown,
     features: [
-      "Access vetted startup talent",
-      "Skill-based matching",
-      "Equity compensation planning",
-      "Team culture assessment",
-      "Leadership coaching",
-      "Talent pipeline management"
+      "All Basic features",
+      "Specialized AI coaches",
+      "Product development guidance",
+      "Marketing strategy support",
+      "Financial planning assistance",
+      "Operations optimization"
     ],
-    credits: "10 talent matches/month",
-    creditValue: "Build your dream team",
-    savings: "Save $10,000+ in recruiting fees",
-    comparison: "vs. Traditional recruiting costs",
+    credits: "Multiple AI coach access",
+    creditValue: "Expert guidance in key areas",
+    savings: "Save $5000+/month",
+    comparison: "vs. Multiple specialized consultants",
     buttonColor: "text-gradient-sunshine"
   },
   {
-    name: "Global Talent",
+    name: "Premium",
     price: "$299",
-    description: "Access global talent at local rates",
+    description: "Complete Growth Suite",
     icon: Users,
     features: [
-      "Access to offshore talent pool",
-      "Cost-effective hiring ($1000/mo)",
-      "Skills verification",
-      "Cultural alignment check",
-      "Time zone management",
-      "Remote work best practices"
+      "All Pro features",
+      "Investor matchmaking",
+      "Talent pool access",
+      "Global hiring solutions",
+      "Deal flow pipeline",
+      "Startup team building"
     ],
-    credits: "Unlimited talent access",
-    creditValue: "Global talent pool access",
-    savings: "Save up to 75% on salaries",
-    comparison: "vs. U.S. market rates ($8000/mo)",
+    credits: "Full platform access",
+    creditValue: "Complete startup solution",
+    savings: "Save $10000+/month",
+    comparison: "vs. Traditional startup costs",
     buttonColor: "text-gradient-aurora"
   }
 ];
