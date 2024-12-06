@@ -13,7 +13,7 @@ interface EnhancedChatPreviewProps {
 const coaches: Coach[] = [
   { 
     id: "strategy", 
-    name: "Atlas",
+    name: "Sophia",
     title: "Strategy Lead",
     gradient: "from-green-400 via-cyan-500 to-blue-500",
     bgGradient: "bg-gradient-to-r from-green-400 via-cyan-500 to-blue-500",
@@ -30,7 +30,7 @@ const coaches: Coach[] = [
   },
   { 
     id: "product", 
-    name: "Nova",
+    name: "Isabella",
     title: "Product Lead",
     gradient: "from-pink-500 via-purple-500 to-indigo-500",
     bgGradient: "bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500",
@@ -47,7 +47,7 @@ const coaches: Coach[] = [
   },
   { 
     id: "growth", 
-    name: "Pulse",
+    name: "Olivia",
     title: "Growth Lead",
     gradient: "from-yellow-400 via-orange-500 to-red-500",
     bgGradient: "bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500",
@@ -64,7 +64,7 @@ const coaches: Coach[] = [
   },
   { 
     id: "operations", 
-    name: "Nexus",
+    name: "Emma",
     title: "Operations Lead",
     gradient: "from-lime-400 via-emerald-500 to-teal-500",
     bgGradient: "bg-gradient-to-r from-lime-400 via-emerald-500 to-teal-500",
@@ -81,7 +81,7 @@ const coaches: Coach[] = [
   },
   { 
     id: "finance", 
-    name: "Vector",
+    name: "Ava",
     title: "Finance Lead",
     gradient: "from-blue-400 via-indigo-500 to-purple-500",
     bgGradient: "bg-gradient-to-r from-blue-400 via-indigo-500 to-purple-500",
